@@ -4,4 +4,7 @@
 
 .c-menu__link {}
 
-.c-menu__link--disabled {}
+.c-menu__link--disabled {
+    color: gray;
+    pointer-events: none;
+}
